@@ -1,145 +1,207 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-label="Animated Roman Soldier with Gladius">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img" aria-label="Animated Roman Centurion with Glowing Gladius">
   <defs>
     
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0D1117" />
-      <stop offset="100%" stop-color="#161B22" />
-    </linearGradient>
+    <radialGradient id="bgRadial" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#0F2922" />
+      <stop offset="65%" stop-color="#0B1117" />
+      <stop offset="100%" stop-color="#070B0F" />
+    </radialGradient>
 
     
-    <linearGradient id="greenTunic" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#22C55E" />
-      <stop offset="55%" stop-color="#15803D" />
-      <stop offset="100%" stop-color="#14532D" />
-    </linearGradient>
-
-    
-    <linearGradient id="ironGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#E2E8F0" />
-      <stop offset="50%" stop-color="#94A3B8" />
-      <stop offset="100%" stop-color="#475569" />
-    </linearGradient>
-
-    
-    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FDE047" />
-      <stop offset="50%" stop-color="#EAB308" />
-      <stop offset="100%" stop-color="#A16207" />
-    </linearGradient>
-
-    
-    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FDBA74" />
-      <stop offset="100%" stop-color="#EA580C" />
-    </linearGradient>
-
-    
-    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
-      <feGaussianBlur stdDeviation="3.5" result="blur" />
+    <filter id="emeraldAura" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
+
+    
+    <filter id="bladeEnergy" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur1" />
+      <feGaussianBlur stdDeviation="2.5" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    
+    <linearGradient id="greenArmorCloth" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E" />
+      <stop offset="55%" stop-color="#16A34A" />
+      <stop offset="100%" stop-color="#14532D" />
+    </linearGradient>
+
+    
+    <linearGradient id="steelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9" />
+      <stop offset="45%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+
+    
+    <linearGradient id="goldTrim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF08A" />
+      <stop offset="50%" stop-color="#EAB308" />
+      <stop offset="100%" stop-color="#854D0E" />
+    </linearGradient>
+
+    
+    <linearGradient id="skinTone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDBA74" />
+      <stop offset="100%" stop-color="#EA580C" />
+    </linearGradient>
+
+    
+    <linearGradient id="gladiusBlade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECFEFF" />
+      <stop offset="45%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
   </defs>
 
   
-  <rect x="12" y="12" width="736" height="396" rx="18" fill="url(#bgGrad)" stroke="#30363D" stroke-width="1.5" />
+  <rect width="640" height="640" rx="28" fill="url(#bgRadial)" />
 
   
-  <g transform="translate(565, 115)" filter="url(#softGlow)">
-    <animateTransform attributeName="transform" type="scale" values="1; 1.03; 1" dur="3.6s" repeatCount="indefinite" additive="sum" />
-    <path d="M 0,42 C -55,35 -75,-15 -42,-58" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-linecap="round" />
-    <path d="M 0,42 C 55,35 75,-15 42,-58" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-linecap="round" />
-    <ellipse cx="-48" cy="14" rx="14" ry="6" transform="rotate(-35 -48 14)" fill="url(#goldGrad)" />
-    <ellipse cx="-58" cy="-12" rx="14" ry="6" transform="rotate(-55 -58 -12)" fill="url(#goldGrad)" />
-    <ellipse cx="-48" cy="-38" rx="14" ry="6" transform="rotate(-75 -48 -38)" fill="url(#goldGrad)" />
-    <ellipse cx="48" cy="14" rx="14" ry="6" transform="rotate(35 48 14)" fill="url(#goldGrad)" />
-    <ellipse cx="58" cy="-12" rx="14" ry="6" transform="rotate(55 58 -12)" fill="url(#goldGrad)" />
-    <ellipse cx="48" cy="-38" rx="14" ry="6" transform="rotate(75 48 -38)" fill="url(#goldGrad)" />
+  <g transform="translate(320, 315)">
+    <circle r="228" fill="none" stroke="#1E3A34" stroke-width="2" />
+    <circle r="196" fill="none" stroke="#1E3A34" stroke-width="1.5" stroke-dasharray="8 6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="48s" repeatCount="indefinite" />
+    </circle>
+
+    
+    <g fill="#23423B" opacity="0.85">
+      <ellipse cx="-205" cy="-40" rx="18" ry="7" transform="rotate(-65 -205 -40)" />
+      <ellipse cx="-212" cy="0" rx="18" ry="7" transform="rotate(-85 -212 0)" />
+      <ellipse cx="-206" cy="40" rx="18" ry="7" transform="rotate(-105 -206 40)" />
+      <ellipse cx="-188" cy="-80" rx="18" ry="7" transform="rotate(-48 -188 -80)" />
+      <ellipse cx="-188" cy="80" rx="18" ry="7" transform="rotate(-125 -188 80)" />
+      <ellipse cx="-160" cy="-115" rx="18" ry="7" transform="rotate(-32 -160 -115)" />
+
+      <ellipse cx="205" cy="-40" rx="18" ry="7" transform="rotate(65 205 -40)" />
+      <ellipse cx="212" cy="0" rx="18" ry="7" transform="rotate(85 212 0)" />
+      <ellipse cx="206" cy="40" rx="18" ry="7" transform="rotate(105 206 40)" />
+      <ellipse cx="188" cy="-80" rx="18" ry="7" transform="rotate(48 188 -80)" />
+      <ellipse cx="188" cy="80" rx="18" ry="7" transform="rotate(125 188 80)" />
+      <ellipse cx="160" cy="-115" rx="18" ry="7" transform="rotate(32 160 -115)" />
+    </g>
   </g>
 
   
-  <g transform="translate(475, 225)" opacity="0.32" stroke="#8B949E" stroke-width="2" fill="#1F242D">
-    <polygon points="90,0 180,36 0,36" />
-    <rect x="10" y="36" width="160" height="104" />
-    <rect x="26" y="46" width="14" height="84" />
-    <rect x="62" y="46" width="14" height="84" />
-    <rect x="98" y="46" width="14" height="84" />
-    <rect x="134" y="46" width="14" height="84" />
-  </g>
+  <ellipse cx="315" cy="575" rx="155" ry="18" fill="#10B981" opacity="0.28" filter="url(#emeraldAura)">
+    <animate attributeName="opacity" values="0.2;0.38;0.2" dur="3s" repeatCount="indefinite" />
+  </ellipse>
 
   
-  <g id="roman-soldier" transform="translate(215, 42)">
-    <animateTransform attributeName="transform" type="translate" values="215,42; 215,38; 215,42" dur="2.6s" repeatCount="indefinite" />
+  <g id="centurion" filter="url(#emeraldAura)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="3s" repeatCount="indefinite" />
 
     
-    <rect x="-34" y="218" width="22" height="98" rx="8" fill="url(#skinGrad)" stroke="#1E293B" stroke-width="2.5" />
-    <rect x="14" y="218" width="22" height="98" rx="8" fill="url(#skinGrad)" stroke="#1E293B" stroke-width="2.5" />
-    <rect x="-38" y="308" width="30" height="12" rx="4" fill="#78350F" stroke="#1E293B" stroke-width="2" />
-    <rect x="10" y="308" width="30" height="12" rx="4" fill="#78350F" stroke="#1E293B" stroke-width="2" />
-    <line x1="-34" y1="285" x2="-12" y2="298" stroke="#78350F" stroke-width="3" />
-    <line x1="-12" y1="285" x2="-34" y2="298" stroke="#78350F" stroke-width="3" />
-    <line x1="14" y1="285" x2="36" y2="298" stroke="#78350F" stroke-width="3" />
-    <line x1="36" y1="285" x2="14" y2="298" stroke="#78350F" stroke-width="3" />
+    <path d="M 248,415 L 278,415 L 266,558 L 236,558 Z" fill="url(#skinTone)" stroke="#090D16" stroke-width="3" />
+    <path d="M 358,415 L 388,415 L 404,548 L 372,548 Z" fill="url(#skinTone)" stroke="#090D16" stroke-width="3" />
+    
+    <rect x="224" y="552" width="46" height="16" rx="7" fill="#78350F" stroke="#090D16" stroke-width="3" />
+    <rect x="370" y="542" width="56" height="16" rx="7" fill="#78350F" stroke="#090D16" stroke-width="3" />
+    <g stroke="#451A03" stroke-width="3">
+      <line x1="242" y1="485" x2="270" y2="505" /><line x1="270" y1="485" x2="242" y2="505" />
+      <line x1="240" y1="515" x2="268" y2="535" /><line x1="268" y1="515" x2="240" y2="535" />
+      <line x1="366" y1="478" x2="396" y2="498" /><line x1="396" y1="478" x2="366" y2="498" />
+      <line x1="369" y1="508" x2="400" y2="528" /><line x1="400" y1="508" x2="369" y2="528" />
+    </g>
 
     
-    <polygon points="-46,142 46,142 58,226 -58,226" fill="url(#greenTunic)" stroke="#1E293B" stroke-width="2.5" />
-    
-    <rect x="-14" y="140" width="8" height="44" rx="2" fill="url(#goldGrad)" stroke="#1E293B" stroke-width="1.5" />
-    <rect x="-4" y="140" width="8" height="44" rx="2" fill="url(#goldGrad)" stroke="#1E293B" stroke-width="1.5" />
-    <rect x="6" y="140" width="8" height="44" rx="2" fill="url(#goldGrad)" stroke="#1E293B" stroke-width="1.5" />
+    <path d="M 244,310 L 392,310 L 424,422 Q 320,442 226,416 Z" fill="url(#greenArmorCloth)" stroke="#090D16" stroke-width="3.5" />
 
     
-    <polygon points="-66,78 -38,74 -34,116 -62,120" fill="url(#greenTunic)" stroke="#1E293B" stroke-width="2.5" />
-    <polygon points="66,78 38,74 34,116 62,120" fill="url(#greenTunic)" stroke="#1E293B" stroke-width="2.5" />
-    <rect x="-40" y="74" width="80" height="72" rx="10" fill="url(#ironGrad)" stroke="#1E293B" stroke-width="2.5" />
-    <line x1="-38" y1="96" x2="38" y2="96" stroke="#334155" stroke-width="2.5" />
-    <line x1="-38" y1="114" x2="38" y2="114" stroke="#334155" stroke-width="2.5" />
-    <line x1="-38" y1="132" x2="38" y2="132" stroke="#334155" stroke-width="2.5" />
+    <g fill="url(#goldTrim)" stroke="#090D16" stroke-width="2.5">
+      <polygon points="286,322 304,322 304,405 295,418 286,405" />
+      <polygon points="311,322 329,322 329,416 320,430 311,416" />
+      <polygon points="336,322 354,322 354,405 345,418 336,405" />
+    </g>
 
     
-    <rect x="46" y="114" width="18" height="62" rx="8" fill="url(#skinGrad)" stroke="#1E293B" stroke-width="2.5" />
-    <circle cx="55" cy="182" r="10" fill="url(#skinGrad)" stroke="#1E293B" stroke-width="2.5" />
+    <path d="M 382,205 L 418,225 L 404,254 L 376,242 Z" fill="url(#greenArmorCloth)" stroke="#090D16" stroke-width="3" />
+    <path d="M 384,244 L 414,244 L 434,335 L 404,342 Z" fill="url(#skinTone)" stroke="#090D16" stroke-width="3" />
+    <rect x="400" y="294" width="32" height="24" rx="5" transform="rotate(-14 416 306)" fill="url(#steelGrad)" stroke="#090D16" stroke-width="2.5" />
+    <circle cx="426" cy="346" r="17" fill="url(#skinTone)" stroke="#090D16" stroke-width="3" />
 
     
-    <g transform="translate(-55, 116)">
-      <animateTransform attributeName="transform" type="rotate" values="-4 -55 116; 7 -55 116; -4 -55 116" dur="2.4s" repeatCount="indefinite" additive="sum" />
+    <path d="M 254,185 Q 320,170 386,185 L 380,322 Q 320,334 260,322 Z" fill="url(#steelGrad)" stroke="#090D16" stroke-width="3.5" />
+    
+    <line x1="320" y1="195" x2="320" y2="324" stroke="#1E293B" stroke-width="3" />
+    <path d="M 264,255 Q 320,265 376,255" fill="none" stroke="#1E293B" stroke-width="3" />
+    <path d="M 263,280 Q 320,290 377,280" fill="none" stroke="#1E293B" stroke-width="3" />
+    <path d="M 262,305 Q 320,315 378,305" fill="none" stroke="#1E293B" stroke-width="3" />
+    
+    <path d="M 224,218 Q 245,172 292,182 L 284,225 Q 252,222 224,218 Z" fill="url(#steelGrad)" stroke="#090D16" stroke-width="3" />
+    <path d="M 416,218 Q 395,172 348,182 L 356,225 Q 388,222 416,218 Z" fill="url(#steelGrad)" stroke="#090D16" stroke-width="3" />
 
-      <rect x="-9" y="0" width="18" height="64" rx="8" fill="url(#skinGrad)" stroke="#1E293B" stroke-width="2.5" />
-      <circle cx="0" cy="68" r="10" fill="url(#skinGrad)" stroke="#1E293B" stroke-width="2.5" />
+    
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-2.5 235 235; 2.5 235 235; -2.5 235 235" dur="2.6s" repeatCount="indefinite" />
+
+      <path d="M 256,205 L 220,225 L 234,254 L 262,242 Z" fill="url(#greenArmorCloth)" stroke="#090D16" stroke-width="3" />
+      <path d="M 224,244 L 254,244 L 242,340 L 210,336 Z" fill="url(#skinTone)" stroke="#090D16" stroke-width="3" />
+      <rect x="208" y="294" width="32" height="24" rx="5" transform="rotate(8 224 306)" fill="url(#steelGrad)" stroke="#090D16" stroke-width="2.5" />
+      <circle cx="224" cy="348" r="17" fill="url(#skinTone)" stroke="#090D16" stroke-width="3" />
 
       
-      <g transform="translate(0, 74) rotate(-32)">
+      <g transform="translate(226, 355) rotate(-42)">
         
-        <rect x="-4" y="-22" width="8" height="22" rx="3" fill="#78350F" stroke="#1E293B" stroke-width="2" />
-        <circle cx="0" cy="-25" r="5" fill="url(#goldGrad)" stroke="#1E293B" stroke-width="1.5" />
-        <rect x="-15" y="-3" width="30" height="7" rx="3" fill="url(#goldGrad)" stroke="#1E293B" stroke-width="2" />
+        <circle cx="0" cy="-34" r="9" fill="url(#goldTrim)" stroke="#090D16" stroke-width="2.5" />
+        <rect x="-6" y="-26" width="12" height="24" rx="4" fill="#78350F" stroke="#090D16" stroke-width="2.5" />
+        <rect x="-24" y="-4" width="48" height="11" rx="5" fill="url(#goldTrim)" stroke="#090D16" stroke-width="2.5" />
 
         
-        <polygon points="-8,4 8,4 8,86 0,104 -8,86" fill="url(#ironGrad)" stroke="#1E293B" stroke-width="2.2" />
-        <line x1="0" y1="8" x2="0" y2="86" stroke="#F8FAFC" stroke-width="1.8" opacity="0.8" />
+        <polygon points="-11,7 11,7 12,155 0,185 -12,155" fill="url(#gladiusBlade)" stroke="#ECFEFF" stroke-width="2" filter="url(#bladeEnergy)" />
+        <line x1="0" y1="12" x2="0" y2="162" stroke="#FFFFFF" stroke-width="2.5" opacity="0.9" />
 
         
-        <rect x="-7" y="8" width="14" height="18" rx="3" fill="#86EFAC" opacity="0.75" filter="url(#softGlow)">
-          <animate attributeName="y" values="8; 72; 8" dur="2.2s" repeatCount="indefinite" />
+        <rect x="-10" y="12" width="20" height="36" rx="6" fill="#FFFFFF" opacity="0.85" filter="url(#bladeEnergy)">
+          <animate attributeName="y" values="10; 130; 10" dur="1.9s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.2; 0.95; 0.2" dur="1.9s" repeatCount="indefinite" />
         </rect>
       </g>
     </g>
 
     
-    <circle cx="0" cy="46" r="22" fill="url(#skinGrad)" stroke="#1E293B" stroke-width="2.5" />
-    
-    <path d="M -26,22 C -26,-8 26,-8 26,22 Z" fill="url(#greenTunic)" stroke="#1E293B" stroke-width="2.5" />
-    
-    <path d="M -24,38 C -24,14 24,14 24,38 L 28,54 L 18,54 L 18,38 L -18,38 L -18,54 L -28,54 Z" fill="url(#ironGrad)" stroke="#1E293B" stroke-width="2.5" />
-    
-    <circle cx="-8" cy="46" r="2.5" fill="#0F172A" />
-    <circle cx="8" cy="46" r="2.5" fill="#0F172A" />
+    <g>
+      
+      <path d="M 275,112 C 272,56 328,44 374,58 L 364,95 C 330,88 302,94 288,116 Z" fill="url(#greenArmorCloth)" stroke="#090D16" stroke-width="3" />
+      
+      <path d="M 284,132 C 284,88 362,88 364,132 L 372,140 L 280,140 Z" fill="url(#steelGrad)" stroke="#090D16" stroke-width="3" />
+      <rect x="282" y="131" width="86" height="6" rx="2" fill="url(#goldTrim)" />
+      
+      <path d="M 294,140 L 358,140 L 354,182 Q 326,196 298,182 Z" fill="url(#skinTone)" stroke="#090D16" stroke-width="3" />
+      <path d="M 286,140 L 306,140 L 310,184 L 290,178 Z" fill="url(#steelGrad)" stroke="#090D16" stroke-width="2.5" />
+      
+      <line x1="312" y1="150" x2="326" y2="153" stroke="#090D16" stroke-width="3" stroke-linecap="round" />
+      <line x1="350" y1="150" x2="336" y2="153" stroke="#090D16" stroke-width="3" stroke-linecap="round" />
+      <circle cx="319" cy="156" r="2.5" fill="#090D16" />
+      <circle cx="343" cy="156" r="2.5" fill="#090D16" />
+    </g>
   </g>
 
   
-  <text x="565" y="378" text-anchor="middle" fill="#8B949E" font-family="monospace, sans-serif" font-size="13">
-    GLADIUS // ROMAN GUARD EDITION
-  </text>
+  <g fill="#67E8F9" filter="url(#emeraldAura)">
+    <circle cx="195" cy="240" r="2.5">
+      <animate attributeName="cy" values="250;210;250" dur="3.4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="455" cy="285" r="3">
+      <animate attributeName="cy" values="295;250;295" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.1;0.9;0.1" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="170" cy="430" r="2">
+      <animate attributeName="cy" values="440;395;440" dur="2.9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="470" cy="465" r="2.5">
+      <animate attributeName="cy" values="475;430;475" dur="3.7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;0.95;0.2" dur="3.7s" repeatCount="indefinite" />
+    </circle>
+  </g>
 </svg>
