@@ -76,13 +76,12 @@ A web-based interface for displaying device status and sensor readings in a more
 
 <div align="center">
 
-<!-- Ganti YOUR_GITHUB_USERNAME dengan username GitHub milikmu -->
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=justsoeh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=justsoeh&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
+<img src="https://streak-stats.demolab.com?user=justsoeh&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
 
 </div>
 
@@ -90,7 +89,7 @@ A web-based interface for displaying device status and sensor readings in a more
 
 <div align="center">
 
-**Learn**　→　**Build**　→　**Test**　→　**Improve**
+**Learn** → **Build** → **Test** → **Improve**
 
 *Understand the concept, make it work, test the result, and keep improving.*
 
@@ -110,23 +109,3 @@ int main() {
 
     return 0;
 }
-```
-
----
-
-<div align="center">
-
-### 🤝 Let's Connect!
-
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-
-<br/><br/>
-
-**Thanks for visiting my profile!**
-
-*Learn continuously. Build meaningful things. Connect the world.*
-
-</div>
-# Profil-github
