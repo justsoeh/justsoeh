@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="assets/gladius-hero.svg" alt="Animated Roman Centurion with Glowing Gladius" width="340"/>
+<img src="assets/roman-gladius-green.svg" alt="Animated Roman Centurion with Glowing Gladius" width="340"/>
 
 # Muhammad Soeh Ferdy
 
 ### Mahasiswa Teknik Komputer | IoT & Embedded Systems | Web Development
 
-<img src="https://img.shields.io/badge/NIM-101032400216-8B5CF6?style=for-the-badge" alt="NIM"/>
-<img src="https://img.shields.io/badge/FOCUS-IoT%20%26%20Embedded-06B6D4?style=for-the-badge" alt="Focus"/>
-<img src="https://img.shields.io/badge/WEB-Development-7C3AED?style=for-the-badge" alt="Web Development"/>
+<img src="[https://img.shields.io/badge/NIM-101032400216-8B5CF6?style=for-the-badge](https://img.shields.io/badge/NIM-101032400216-8B5CF6?style=for-the-badge)" alt="NIM"/>
+<img src="[https://img.shields.io/badge/FOCUS-IoT%20%26%20Embedded-06B6D4?style=for-the-badge](https://img.shields.io/badge/FOCUS-IoT%20%26%20Embedded-06B6D4?style=for-the-badge)" alt="Focus"/>
+<img src="[https://img.shields.io/badge/WEB-Development-7C3AED?style=for-the-badge](https://img.shields.io/badge/WEB-Development-7C3AED?style=for-the-badge)" alt="Web Development"/>
 
 *Building smart devices, connecting systems, and turning ideas into useful applications.*
 
@@ -33,18 +33,18 @@ I enjoy working across hardware and software — from reading sensor data and pr
 <div align="center">
 
 ### Programming & Web
-<img src="https://skillicons.dev/icons?i=c,cpp,html,css,js,php,python&theme=dark" alt="Programming languages and web technologies"/>
+<img src="[https://skillicons.dev/icons?i=c,cpp,html,css,js,php,python&theme=dark](https://skillicons.dev/icons?i=c,cpp,html,css,js,php,python&theme=dark)" alt="Programming languages and web technologies"/>
 
 ### IoT, Embedded & Development Tools
-<img src="https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino IDE"/>
-<img src="https://img.shields.io/badge/Node--RED-8F0000?style=for-the-badge&logo=nodered&logoColor=white" alt="Node-RED"/>
-<img src="https://img.shields.io/badge/Tinkercad-1477D1?style=for-the-badge&logo=autodesk&logoColor=white" alt="Tinkercad"/>
-<img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB"/>
-<img src="https://img.shields.io/badge/Falstad_Circuit_Simulator-263238?style=for-the-badge" alt="Falstad Circuit Simulator"/>
-<img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual Studio"/>
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Visual Studio Code"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+<img src="[https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white](https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white)" alt="Arduino IDE"/>
+<img src="[https://img.shields.io/badge/Node--RED-8F0000?style=for-the-badge&logo=nodered&logoColor=white](https://img.shields.io/badge/Node--RED-8F0000?style=for-the-badge&logo=nodered&logoColor=white)" alt="Node-RED"/>
+<img src="[https://img.shields.io/badge/Tinkercad-1477D1?style=for-the-badge&logo=autodesk&logoColor=white](https://img.shields.io/badge/Tinkercad-1477D1?style=for-the-badge&logo=autodesk&logoColor=white)" alt="Tinkercad"/>
+<img src="[https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)" alt="MATLAB"/>
+<img src="[https://img.shields.io/badge/Falstad_Circuit_Simulator-263238?style=for-the-badge](https://img.shields.io/badge/Falstad_Circuit_Simulator-263238?style=for-the-badge)" alt="Falstad Circuit Simulator"/>
+<img src="[https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)" alt="Visual Studio"/>
+<img src="[https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)" alt="Visual Studio Code"/>
+<img src="[https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)" alt="Git"/>
+<img src="[https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)" alt="GitHub"/>
 
 </div>
 
@@ -75,12 +75,12 @@ A web-based interface for displaying device status and sensor readings in a more
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=justsoeh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=justsoeh&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
+<img height="165" src="[https://github-readme-stats.vercel.app/api?username=justsoeh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true](https://github-readme-stats.vercel.app/api?username=justsoeh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)" alt="GitHub stats"/>
+<img height="165" src="[https://github-readme-stats.vercel.app/api/top-langs/?username=justsoeh&layout=compact&theme=tokyonight&hide_border=true](https://github-readme-stats.vercel.app/api/top-langs/?username=justsoeh&layout=compact&theme=tokyonight&hide_border=true)" alt="Top languages"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=justsoeh&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
+<img src="[https://streak-stats.demolab.com?user=justsoeh&theme=tokyonight&hide_border=true](https://streak-stats.demolab.com?user=justsoeh&theme=tokyonight&hide_border=true)" alt="GitHub contribution streak"/>
 
 </div>
 
