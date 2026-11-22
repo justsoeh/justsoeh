@@ -4,7 +4,9 @@
 <img src="assets/dragon_header.gif" width="100%" alt="Animated neon dragon header"/>
 
 # Muhammad Soeh Ferdy
-
+<div align="center">
+  <img src="assets/roman-gladius-green.svg" alt="Animated Roman soldier with gladius" width="640"/>
+</div>
 ### Mahasiswa Teknik Komputer | IoT & Embedded Systems | Web Development
 
 <img src="https://img.shields.io/badge/NIM-101032400216-8B5CF6?style=for-the-badge" alt="NIM"/>
@@ -12,6 +14,7 @@
 <img src="https://img.shields.io/badge/WEB-Development-7C3AED?style=for-the-badge" alt="Web Development"/>
 
 *Building smart devices, connecting systems, and turning ideas into useful applications.*
+
 
 </div>
 
