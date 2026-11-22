@@ -1,11 +1,6 @@
 <div align="center">
-  <img src="assets/gladius-hero.svg" alt="Animated Roman Centurion with Glowing Gladius" width="340"/>
-</div>
 
-<div align="center">
-
-<!-- Simpan file GIF di folder assets dengan nama dragon_header.gif -->
-<img src="assets/dragon_header.gif" width="100%" alt="Animated neon dragon header"/>
+<img src="assets/gladius-hero.svg" alt="Animated Roman Centurion with Glowing Gladius" width="340"/>
 
 # Muhammad Soeh Ferdy
 
